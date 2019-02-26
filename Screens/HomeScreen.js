@@ -14,7 +14,7 @@ export default class HomeScreen extends Component {
               <Left style={{flexDirection:'row'}}>
                 <Icon onPress={() => this.props.navigation.openDrawer()} name="md-menu" style={{color: 'white', marginRight:30}} />
                 <FAIcon name="fire" style={{fontSize: 30, color: 'white'}} />
-                <Text style={styles.logoname}>Fire Sale</Text>
+                <Text style={styles.logoname}>Food Fire Sale</Text>
               </Left>
               <Right>
                   <Icon name="md-cart" style={{color:'white'}}  />
